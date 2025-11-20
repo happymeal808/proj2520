@@ -7,6 +7,7 @@ const JWT_SECRET = "secret";
 export default {
   async register({ username, password, profilePicture }) {
     // TODO: get ahold of the db using readDb();
+    
     // TODO: check if there is an existing user with the same username
     // TODO: if there is, do the following:
     //       - construct a new Error("Username already taken");
