@@ -1,3 +1,6 @@
+import jwt from "jsonwebtoken";
+const JWT_SECRET = "supersecretkey";
+
 const DEFAULT_HEADER = {
   "content-type": "application/json",
   "Access-Control-Allow-Origin": "*",
